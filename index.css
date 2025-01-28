@@ -861,7 +861,7 @@ button {
     align-items: flex-start;
     justify-content: flex-start;
     gap: 25px;
-    animation: fadeUp 1.5s ease-out forwards;
+    animation: fadeUp 2s ease-out forwards;
 }
 
 @keyframes fadeUp {
@@ -981,7 +981,7 @@ button {
     align-items: flex-start;
     justify-content: flex-start;
     gap: 45px;
-    animation: fadeRight 1.5s ease-out forwards;
+    animation: fadeRight 2s ease-out forwards;
 }
 
 @keyframes fadeRight {
