@@ -2047,7 +2047,7 @@ main {
     }
 
     &:hover h2 {
-      inset: auto auto 160px 20px;
+      inset: auto auto 180px 20px;
       transition: inset .3s ease-out;
       color:#ff7811;
       text-shadow:#000;
