@@ -2677,4 +2677,40 @@ main {
     background: #DB6000; /* Handle color on hover */
 }
 
+/* Mobile Responsive Styles */
+@media (max-width: 360px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(10px);
+        text-align: center;
+        overflow-x: hidden;
+        overflow-block:hidden;
+    }
+    .landing-page {
+        display: none;
+    }
+    body::before {
+        content: "Website is under maintenance for mobile view. Please view on a laptop.";
+        font-size: 40px;
+        font-weight: bold;
+        font-family: Poppins;
+        color: white;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 50px;
+        border-radius: 10px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        left: 300px;
+        max-width: 90%;
+    }
+}
+
 
