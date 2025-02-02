@@ -2678,7 +2678,7 @@ main {
 }
 
 /* Mobile Responsive Styles */
-@media (max-width: 430px) {
+@media (max-width: 470px) {
     body {
         display: flex;
         justify-content: center;
