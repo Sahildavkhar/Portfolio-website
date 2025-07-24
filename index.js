@@ -1,7 +1,7 @@
 import LocomotiveScroll from 'locomotive-scroll';
 
 const scroll = new LocomotiveScroll({
-    el: document.querySelector('#portfolio'),
+    el: document.querySelector('[data-scroll-container]'),
     smooth: true
 });
 
