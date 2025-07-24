@@ -13,34 +13,34 @@
   	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Calistoga:wght@400&display=swap" />
   	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-	<link rel="icon" type="image/png" href="Screenshot__5_-removebg-preview.png">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0" />
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css" />
+  	
+  	<style>
+  		/* Additional styles can be added here */
+  	</style>
   	
   	
   	
 </head>
 <body>
-	<!-- Original Website Content
-    <div id="original-content">
-        <h1>Welcome to My Portfolio</h1>
-        <p>This is my original website content.</p>
-    </div> -->
+  	<!-- Mobile View Maintenance Popup -->
+	  <div class="maintenance-overlay">
+        <div class="maintenance-box">
+            <img src="https://cdn-icons-png.flaticon.com/512/5610/5610944.png" alt="Under Maintenance">
+            <h1>Website Under Maintenance</h1>
+            <p>Please view this website on a desktop or laptop for the best experience.</p>
+        </div>
+    </div>
 
-    <!-- Maintenance Screen for Mobile -->
-    <!-- Maintenance Screen for Mobile -->
-    
-  	
-  	<div class="portfolio" data-scroll-container>
-		<div id="maintenance">
-			<div id="maintenance-box">
-				<div id="maintenance-logo">
-					<img src="under-maintenance.png" alt="Maintenance Logo">
-				</div>
-				<h1>Website Under Maintenance</h1>
-				<p>Please view on desktop.</p>
-			</div>
-		</div>
-    		<div class="about-me" id="about-me" data-scroll data-scroll-speed=10>
+    <!-- Main Website Content -->
+    <div class="main-content">
+        <h1>Welcome to My Website</h1>
+        <p>This content is visible in the background on mobile but blurred.</p>
+    </div>
+
+  	<div class="portfolio">
+    		<div class="about-me" id="about-me">
       			<img class="about-me-child" alt="" src="Rectangle 42.png">
       			<div class="about-me-item">
       			</div>
@@ -127,7 +127,7 @@
             						</div>
             						<div class="metrics-inner">
               							<div class="group">
-                								<b class="b">11+</b>
+                								<b class="b">10+</b>
                 								<div class="years-of-designing-container">Projects Submitted</div>
               							</div>
             						</div>
@@ -141,7 +141,7 @@
         				</div>
       			</div>
     		</div>
-    		<div class="landing-page" id="landing-page" data-scroll data-scroll-delay=10>
+    		<div class="landing-page" id="landing-page">
       			<div class="landing-page-child">
       			</div>
       			<div class="landing-page-item">
@@ -199,7 +199,7 @@
 											</div>
 										</div>
 										
-										<a href="https://drive.google.com/file/d/1Bb8GnfinLmCx0mQhcGDqsvre9OI4dWgU/view?usp=drive_link" target="_blank">
+										<a href="https://read.cv/sahildavkhar" target="_blank">
               								<button>										
 												<div class="btn">
                 									<div class="downlaod-cv">Downlaod CV</div>
@@ -284,7 +284,7 @@
 					</video>
       			</div>
     		</div>
-    		<div class="skills2" id="skills2" data-scroll data-scroll-delay=10>
+    		<div class="skills2" id="skills2">
       			<div class="skills-child">
       			</div>
       			<div class="skills-inner">
@@ -322,9 +322,9 @@
               							<div class="languages">Tools</div>
             						</div>
             						<div class="html-5-parent">
-              							<img class="html-5-icon" alt="" src="icons8-power-bi-logo-240.png">
-              							
               							<img class="html-5-icon" alt="" src="figma (1).png">
+              							
+              							<img class="html-5-icon" alt="" src="bootstrap (1).png">
               							
               							<img class="html-5-icon" alt="" src="photoshop (2).png">
               							
@@ -351,7 +351,7 @@
         				</div>
       			</div>
     		</div>
-    		<div class="experience2" id="experience2" data-scroll data-scroll-delay=10>
+    		<div class="experience2" id="experience2">
       			<div class="experience-child">
       			</div>
       			<div class="experience-item">
@@ -376,7 +376,7 @@
               							</div>
             						</div>
             						<div class="acm-dbit-mumbai-parent">
-              							<div class="acm-dbit-mumbai">Domain Math Club, DBIT</div>
+              							<div class="acm-dbit-mumbai">Domain Math Club, Mumbai</div>
               							<div class="aug-2023-">Aug 2023 - Apr 2024</div>
             						</div>
           					</div>
@@ -425,7 +425,7 @@
         				</div>
       			</div>
     		</div>
-    		<div class="projects1" id="projects1" data-scroll data-scroll-speed=10>
+    		<div class="projects1" id="projects1">
       			<img class="projects-child" alt="" src="Rectangle 45.png">
       			
       			<div class="projects-item">
@@ -565,7 +565,7 @@
 
       			</div>
     		</div>
-    		<div class="contact-us" id="contact-us" data-scroll data-scroll-speed=10>
+    		<div class="contact-us" id="contact-us">
 				<div class="contact-us-child"></div>
 				<div class="frame-parent15">
 					<div class="group-parent1">
@@ -645,6 +645,7 @@
       			</div>
     		</div>
   	</div>
+  	
   	<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
 </body>
 </html>
