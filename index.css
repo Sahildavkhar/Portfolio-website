@@ -14,7 +14,7 @@ html, body {
     height: 100%;
     color: #1e1e1e;
     overflow-block: auto;
-    scroll-behavior: smooth; /* Enables smooth scrolling for the entire page */
+    /*scroll-behavior: smooth; /* Enables smooth scrolling for the entire page */
 }
 
 /* Reset Default Styles */
